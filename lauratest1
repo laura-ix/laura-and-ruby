@@ -1,0 +1,8 @@
+print "Give me a number!"
+number = gets.chomp
+
+if 1 < 2
+  print "I'm getting printed because your number is less than two!"
+  else
+  print "That means I'll get printed!"
+end

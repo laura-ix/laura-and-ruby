@@ -4,6 +4,10 @@ def odd_position_values(list)
   result = []
 
   list.each_with_index do |item, index|
+    # puts "item: #{item}"
+    # puts "index: #{index}"
+    # puts
+
     if index % 2 == 0
       # puts item
       result.push(item)
@@ -14,3 +18,4 @@ def odd_position_values(list)
 end
 
 puts odd_position_values([7, 2, 1, 4, 9]) # 7, 1, 9
+#puts odd_position_values([7, 2, 1, 4, 9]) # 7, 1, 9
